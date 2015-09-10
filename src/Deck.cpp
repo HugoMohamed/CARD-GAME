@@ -64,3 +64,13 @@ void Deck::display()
 		std::cout << deck[i].getCdNumber() << " " << deck[i].getFamily() << std::endl;
 	}
 }
+
+
+// Deal
+
+Card Deck::deal()
+{
+	Card dealedCard {deck[51]};
+	deck [51] = dealedCard;
+	deck.pop_front();
+}
