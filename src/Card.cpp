@@ -1,18 +1,17 @@
-#include <string>
 #include "Card.h"
 
 //constructor
 
 Card::Card ()
 {
-	cdNumber = 0;
+	number = 0;
 	family = "";
 }
 
-Card::Card (int value, std::string familyValue)
+Card::Card (int number, std::string family)
 {
-	cdNumber = value;
-	family = familyValue;
+	this->number = number;
+	this->family = family;
 }
 
 //destructor
@@ -24,9 +23,9 @@ Card::~Card()
 
 //get list
 
-int Card::getCdNumber ()
+int Card::getNumber ()
 {
-	return cdNumber;
+	return number;
 }
 
 std::string Card::getFamily ()

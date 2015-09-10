@@ -1,7 +1,5 @@
 #include "Deck.h"
 
-
-
 // Constructor
 
 Deck::Deck()
@@ -10,9 +8,9 @@ Deck::Deck()
 
 	for(std::string family : {"Heart", "Diamond", "Club", "Spade"})
 	{
-		for(int cdNumber {1}; cdNumber <= 13; cdNumber++)
+		for(int number {1}; number <= 13; number++)
 		{
-			deck.push_back(Card {cdNumber, family});
+			deck.push_back(Card {number, family});
 			//R.I.P index
 		}
 	}
@@ -61,7 +59,7 @@ void Deck::display()
 {
 	for(int i{0}; i < 52; i++)
 	{
-		std::cout << deck[i].getCdNumber() << " " << deck[i].getFamily() << std::endl;
+		std::cout << deck[i].getNumber() << " " << deck[i].getFamily() << std::endl;
 	}
 }
 
