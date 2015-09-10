@@ -48,7 +48,8 @@ void Deck::shuffleCards()
 		do
 		{
 			random = rand() % 52;
-		}while(randTest [random]);
+		}
+		while(randTest [random]);
 		
 		deck[random] = temporaryDeck[i];
 		randTest [random] = true;
