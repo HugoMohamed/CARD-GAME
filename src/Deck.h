@@ -2,6 +2,8 @@
 #define DECK_H_INCLUDED
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 #include <deque>
 #include "Card.h"
 
