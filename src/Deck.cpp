@@ -75,3 +75,9 @@ Card Deck::deal()
 }
 
 
+// Put a card in the deck
+
+void Deck::putCard(Card card)
+{
+	deck.push_front(card);
+}
