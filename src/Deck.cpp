@@ -69,6 +69,18 @@ void Deck::display()
 Card Deck::deal()
 {
 	Card dealedCard {deck[51]};
-	deck [51] = dealedCard;
-	deck.pop_front();
+	deck.pop_back();
+
+	return dealedCard;
+}
+
+
+// Put a card in the deck
+
+void Deck::putCard(Card)
+{
+	Card putCard {deck[0]};
+	deck.push_front();
+	
+	return putCard;
 }
