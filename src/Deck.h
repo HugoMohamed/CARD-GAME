@@ -2,12 +2,7 @@
 #define DECK_H_INCLUDED
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 #include <deque>
-#include <cstdlib>
-#include <ctime>
-
 #include "Card.h"
 
 class Deck
@@ -19,6 +14,8 @@ class Deck
 	
 	void display();
 	void shuffleCards();
+	void putCard(Card);
+	Card deal();	
 	
 	private :
 
