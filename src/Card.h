@@ -3,6 +3,7 @@
 
 #include <string>
 
+
 class Card
 {
 	public :
@@ -11,12 +12,12 @@ class Card
 	Card (int, std::string);
 	~Card ();
 	
-	int getNumber ();
+	int getCdNumber ();
 	std::string getFamily ();
 	
 	private :
 
-	int number;
+	int cdNumber;
 
 	std::string family;
 };
