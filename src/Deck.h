@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <deque>
+#include <cstdlib>
+#include <ctime>
 #include "Card.h"
 
 class Deck
