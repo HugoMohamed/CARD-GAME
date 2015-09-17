@@ -1,0 +1,22 @@
+#include "Table.h"
+
+
+// Constructor
+
+Table::Table()
+{
+	
+}
+
+
+// Destructor
+
+Table::~Table()
+{
+	
+}
+
+
+// Add Card
+
+Card Table::addCard()
