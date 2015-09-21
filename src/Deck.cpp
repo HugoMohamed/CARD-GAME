@@ -1,3 +1,21 @@
+/******************************************
+*
+* File Name: Deck.cpp
+*
+* Author: IhFisk <ihfisk42@gmail.com>
+*
+* Description: The Deck class is create the deck, with 52 cards, and offer the possiblility to shuffle them, deal them, and add a card to the deck
+*
+*******************************************
+*
+* Last Correction:
+* 	Author: IhFisk <ihfisk42@gmail.com>
+*
+*	Date: 17/09/2015
+*
+******************************************/
+
+
 #include "Deck.h"
 
 

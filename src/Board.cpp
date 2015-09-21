@@ -1,3 +1,21 @@
+/******************************************
+*
+* File Name: Board.cpp
+*
+* Author: IhFisk <ihfisk42@gmail.com>
+*
+* Description: This is the Board of the game, it contains cards, and possibility to add and remove cards
+*
+*******************************************
+*
+* Last Correction:
+* 	Author: IhFisk <ihfisk42@gmail.com>
+*
+*	Date: 17/09/2015
+*
+******************************************/
+
+
 #include "Board.h"
 
 

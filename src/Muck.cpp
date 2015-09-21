@@ -1,3 +1,21 @@
+/******************************************
+*
+* File Name: Muck.cpp
+*
+* Author: IhFisk <ihfisk42@gmail.com>
+*
+* Description: This is the muck, you can only put cards in.
+*
+*******************************************
+*
+* Last Correction:
+* 	Author: IhFisk <ihfisk42@gmail.com>
+*
+*	Date: 17/09/2015
+*
+******************************************/
+
+
 #include "Muck.h"
 
 
