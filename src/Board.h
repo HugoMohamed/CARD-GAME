@@ -1,3 +1,21 @@
+/******************************************
+*
+* File Name: Board.h
+*
+* Author: IhFisk <ihfisk42@gmail.com>
+*
+* Description: Board.cpp header
+*
+*******************************************
+*
+* Last Correction:
+* 	Author: IhFisk <ihfisk42@gmail.com>
+*
+*	Date: 17/09/2015
+*
+******************************************/
+
+
 #ifndef BOARD_H_INCLUDED
 #define BOARD_H_INCLUDED
 

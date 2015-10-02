@@ -1,3 +1,21 @@
+/******************************************
+*
+* File Name: Deck.h
+*
+* Author: IhFisk <ihfisk42@gmail.com>
+*
+* Description: Deck.cpp header
+*
+*******************************************
+*
+* Last Correction:
+* 	Author: IhFisk <ihfisk42@gmail.com>
+*
+*	Date: 17/09/2015
+*
+******************************************/
+
+
 #ifndef DECK_H_INCLUDED
 #define DECK_H_INCLUDED
 
